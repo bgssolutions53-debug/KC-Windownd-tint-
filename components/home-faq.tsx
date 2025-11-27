@@ -2,12 +2,39 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
+
 const faqs = [
   {
     question: "How long does window tint last?",
     answer:
       "The lifespan of window tint depends on the type of film and environmental factors. Residential films typically last 10-15 years, while commercial-grade films can last 12-20 years. Premium ceramic films often have the longest lifespan.",
   },
+
+  {
+    question: "How do I measure my windows for a quote?",
+    answer: (
+      <div className="flex flex-col md:flex-row gap-6 items-center">
+        <div className="md:w-1/2 space-y-3">
+          <p>
+            It's easy! Just follow the guide to measure the <strong>inside height</strong> of your
+            window's glass, from frame to frame.
+          </p>
+          <p>
+            Once you have the height and width, send them to us with your free quote request.
+            This gives us a great starting point for your estimate!
+          </p>
+        </div>
+        <div className="md:w-1/2 w-full max-w-sm">
+        <img
+                src="/kcen.png"
+                alt="Commercial window tinting"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+        </div>
+      </div>
+    ),
+  },
+  
   {
     question: "Can window tint really reduce heat?",
     answer:
@@ -57,6 +84,7 @@ export function HomeFaq() {
                 <AccordionTrigger className="text-left font-serif font-semibold text-lg text-black hover:text-primary">
                   {faq.question}
                 </AccordionTrigger>
+                {/* 3. NO HAY CAMBIOS AQUÍ. React renderizará el texto o el JSX automáticamente */}
                 <AccordionContent className="text-black/70 leading-relaxed pt-2">{faq.answer}</AccordionContent>
               </AccordionItem>
             ))}

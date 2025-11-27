@@ -23,7 +23,7 @@ export function Hero() {
           </h1>
 
           <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed text-pretty">
-            Reduce heat, glare, and energy costs — enjoy comfort and privacy year-round in Kern County
+            Reduce heat, glare, and energy costs — enjoy comfort and privacy year-round in The Central Valley
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
@@ -61,7 +61,7 @@ export function Hero() {
             </div>
             <div className="flex flex-col items-center gap-2 text-white">
               <Clock className="w-8 h-8 text-primary" />
-              <span className="text-sm font-medium">5-Year Warranty</span>
+              <span className="text-sm font-medium">10-Year Warranty</span>
             </div>
             <div className="flex flex-col items-center gap-2 text-white">
               <MapPin className="w-8 h-8 text-primary" />

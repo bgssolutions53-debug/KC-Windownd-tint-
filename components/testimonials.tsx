@@ -7,25 +7,25 @@ import { Button } from "@/components/ui/button"
 
 const testimonials = [
   {
-    name: "Sarah Martinez",
+    name: "Jesus Fernandez",
     location: "Bakersfield, CA",
     rating: 5,
-    text: "KC Intuitive did an amazing job on our home! The difference in temperature is incredible, and our energy bills have dropped significantly. Highly recommend!",
-    image: "/professional-woman-smiling.png",
+    text: "Very satisfied with the job these guys did, clean and professional work highly recommended for you’re commercial or residential tints",
+    image: "/",
   },
   {
-    name: "David Chen",
-    location: "Kern County, CA",
-    rating: 5,
-    text: "Professional service from start to finish. They tinted all the windows in our office building, and the results are fantastic. No more glare on computer screens!",
-    image: "/professional-man-smiling.png",
+    name: "Ricardo Serrato",
+    location: "Bakersfield, CA",
+    rating: 4,
+    text: "Great customer service and they pay attention to details. 100% honest and reliable. Highly recommend for all your residential and commercial window tint.",
+    image: "/",
   },
   {
-    name: "Maria Rodriguez",
+    name: "Rocio Alvarez",
     location: "Bakersfield, CA",
     rating: 5,
-    text: "I love the privacy and the sleek look the tinting gave my home. The team was punctual, professional, and cleaned up perfectly. Worth every penny!",
-    image: "/happy-woman-smiling.png",
+    text: "You can tell this guys are professional, great service and most of all great quality in their installation.  100% recommended",
+    image: "",
   },
 ]
 
